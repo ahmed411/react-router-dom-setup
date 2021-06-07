@@ -26,9 +26,9 @@ function App() {
           </Link>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="about" element={<About />}></Route>
-          <Route path="support" element={<Support />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="support" element={<Support />} />
           <Route path="posts" element={<Posts />}>
             <Route path="/" element={<PostsList />} />
             <Route path=":id" element={<Post />} />
